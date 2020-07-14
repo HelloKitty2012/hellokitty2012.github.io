@@ -62,8 +62,7 @@ layout: default
 
                 <hr style="visibility: hidden;">
 
-                <ul class="pager">
-                 <HR>   
+                <ul class="pager">  
                     {% if page.previous.url %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
@@ -82,7 +81,6 @@ layout: default
                     {% endif %}
                 </ul>
 
-                <HR>
                 <!-- Valine 评论框 start -->
                 {% if site.valine.enable %}
                       {% include valine_comments.html %}
