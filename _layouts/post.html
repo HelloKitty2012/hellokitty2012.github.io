@@ -40,7 +40,7 @@ layout: default
                     {% comment %} if page.subtitle {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
-                    <span class="meta">{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} | {{ page.date | date: "%B %-d, %Y" }} | 阅读：<span id="busuanzi_value_page_pv"></span>次</span>
+                    <span class="meta">{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} | {{ page.date | date: "%m月 %-d日, %Y年" }} | 阅读：<span id="busuanzi_value_page_pv"></span>次</span>
                 </div>
             </div>
         </div>
