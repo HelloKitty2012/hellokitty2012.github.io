@@ -3,7 +3,7 @@ title: 萌之神唑
 SEOTitle: 萌之神唑的博客
 header-img: img/post-bg-desk.jpg
 email: hellokitty2010@vip.qq.com
-description: "人这一生，要见众生，见天地，见自己。"
+description: "笑而不语"
 keyword: "萌之神唑"
 url: "https://hellokitty2012.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/HelloKitty2012/HelloKitty2012.github.io.git" # 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "路漫漫其修远兮，吾将上下而求索。"
+sidebar-about-description: "朝闻道 夕死可矣"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
