@@ -65,8 +65,8 @@ valine:
   appkey: aCqLSeE3BsfSoD886WF7CQED # your leancloud app key
   notify: true # mail notifier , https://github.com/xCss/Valine/wiki，v1.4.0+ 已废弃
   verify: true # Verification code，v1.4.0+ 已废弃
-  placeholder: 想说点啥呢？ # comment box placeholder
-  avatar:   # gravatar style
+  placeholder: Just Go Go. # comment box placeholder
+  avatar: wavatar #(mp/identicon/monsterid/wavatar/robohash/retro/hide)
   guest_info: 昵称,邮件,网址 # custom comment header
   pageSize: 10 # pagination size
   # path: window.location.pathname #  v1.4.0+不要使用参数“app_key: 'LHvLGcwcauE5B2JpMxJ3lbtF',”
