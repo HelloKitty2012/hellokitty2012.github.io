@@ -92,6 +92,18 @@ ba_track_id: 547b7a2dfac6e991a19a9d9c8df232be
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
+# List of links in the navigation bar
+navbar-links:
+   主页: "https://zoharandroid.github.io"
+   博客: 
+   - 分类: "https://zoharandroid.github.io/categories/"
+   - 标签: "https://zoharandroid.github.io/tags/"
+   项目:
+    - GitHub: "https://github.com/ZoharAndroid"
+    - HelloOffer: "https://github.com/ZoharAndroid/HelloOffer"
+    - LeetCode: "https://github.com/ZoharAndroid/LeetCode"
+   关于我: "aboutme"
+   搜索: "search"
 
 
 # Progressive Web Apps
@@ -111,3 +123,11 @@ friends: [
     }
 ]
 encoding: UTF-8
+
+navbar-links:
+  Home: "https://zoharandroid.github.io"
+  标签: "https://zoharandroid.github.io/tags/"
+  项目:
+    - Learn markdown: "http://www.markdowntutorial.com/"
+  关于我: "aboutme"
+  搜索: "search"
