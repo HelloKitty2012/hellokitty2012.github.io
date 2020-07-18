@@ -181,3 +181,10 @@ layout: default
     }
 </style>
 {% endif %}
+
+<script>
+window.onload = function(){
+    // 所有文章内 a 标签都为新建窗口打开
+     $("#content a").attr("target","_blank");
+}
+</script>
