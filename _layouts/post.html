@@ -175,16 +175,6 @@ window.onload = function(){
      $("#content a").attr("target","_blank");
 }
 </script>
-
-<script type="text/javascript">
-	$(document).ready(function() {
-	    //为超链接加上target='_blank'属性
-		$('a[href^="http"]').each(function() {
-			$(this).attr('target', '_blank');
-		});
-	});
-</script>
-
 {% if site.anchorjs %}
 <!-- async load function -->
 <script>
