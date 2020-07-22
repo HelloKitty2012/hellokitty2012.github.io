@@ -1,0 +1,19 @@
+{
+  "name": "萌之神唑",
+  "short_name": "萌之神唑",
+  "description": "人这一生，要见众生，见天地，见自己。",
+  "icons": [{
+    "src": "icons/128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "icons/512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
